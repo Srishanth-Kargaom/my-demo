@@ -1,0 +1,36 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h3{
+    color:hsl(2, 77%, 44%)
+}
+
+#login{
+    background-color: aliceblue;
+}
+
+.uv{
+    color: blue;
+    background-color: rgb(29, 202, 58);
+}
+.ans{
+    background:yellow;
+}
+button{
+    background-color:red;
+}
+div[id="myId"] p {
+    color:green;
+}
+button:hover {
+    background-color: black;
+    color:yellow;
+}
+button:active{
+    background-color: rgb(255, 18, 216);
+    color: black;
+}
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight: bold;
+}
